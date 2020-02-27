@@ -1,7 +1,7 @@
-# fn
-# #testing some function
-# (a,b) -> a+b
-# end
+fn
+  # testing some function
+  a, b -> a + b
+end
 
-swap = fn {a, b} -> {b,a} end
-swap.( { 6, 8 } )
+swap = fn {a, b} -> {b, a} end
+swap.({6, 8})
