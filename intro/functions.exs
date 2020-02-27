@@ -1,6 +1,7 @@
-sum = fn
-#testing some function
-(a,b) -> a+b
-end
+# fn
+# #testing some function
+# (a,b) -> a+b
+# end
 
-IO.puts sum.(1,2)
+swap = fn {a, b} -> {b,a} end
+swap.( { 6, 8 } )
