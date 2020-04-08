@@ -1,25 +1,4 @@
 defmodule MyList do
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   # if empty list do not add length
   def len([]), do: 0
 
